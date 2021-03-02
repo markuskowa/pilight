@@ -9,6 +9,8 @@
 #ifndef _MEM_H_
 #define _MEM_H_
 
+#include "stdlib.h"
+
 #define OUT_OF_MEMORY fprintf(stderr, "out of memory in %s #%d\n", __FILE__, __LINE__),exit(EXIT_FAILURE);
 
 int xfree(void);
